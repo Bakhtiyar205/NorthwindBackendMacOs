@@ -95,6 +95,7 @@ namespace WebApi.Controllers
         [HttpPost("delete")]
         public IActionResult Delete(Product product)
         {
+            string salma = "salam";
             var result = _productService.Delete(product);
             if (result.Success)
             {
@@ -104,6 +105,7 @@ namespace WebApi.Controllers
             {
                 return BadRequest(result.Message);
             }
+            
         }
     }
 }
