@@ -60,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -119,6 +119,7 @@
       <workItem from="1670947758057" duration="3403000" />
       <workItem from="1670954684449" duration="1660000" />
       <workItem from="1671036981629" duration="1681000" />
+      <workItem from="1671045683189" duration="31000" />
     </task>
     <servers />
   </component>
