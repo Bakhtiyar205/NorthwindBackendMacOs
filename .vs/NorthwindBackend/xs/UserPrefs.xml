@@ -1,7 +1,6 @@
-﻿<Properties StartupConfiguration="{3C4B9AE7-9467-4467-B8B8-F6D6CF3EC927}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3C4B9AE7-9467-4467-B8B8-F6D6CF3EC927}|https">
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs">
     <Files>
       <File FileName="Business/Concrete/CategoryManager.cs" Line="42" Column="61" IsPinned="True" />
@@ -37,8 +36,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>
