@@ -114,3 +114,6 @@ C:/Users/Baxtiyar/Documents/NorthwindBackend/WebApi/obj/Debug/net7.0/ref/WebApi.
 /Users/macbook/Documents/Programming/NorthWind/Northwind/WebApi/obj/Debug/net7.0/ref/WebApi.dll
 /Users/macbook/Documents/Programming/NorthWind/Northwind/WebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/macbook/Documents/Programming/NorthWind/Northwind/WebApi/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/macbook/Documents/Programming/NorthWind/Northwind/WebApi/bin/Debug/net7.0/FluentValidation.dll
+/Users/macbook/Documents/Programming/NorthWind/Northwind/WebApi/bin/Debug/net7.0/Castle.Core.dll
+/Users/macbook/Documents/Programming/NorthWind/Northwind/WebApi/bin/Debug/net7.0/Autofac.Extras.DynamicProxy.dll

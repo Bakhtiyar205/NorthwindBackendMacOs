@@ -1,42 +1,36 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{3C4B9AE7-9467-4467-B8B8-F6D6CF3EC927}|https">
   <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApi/Controllers/ProductController.cs">
     <Files>
-      <File FileName="Business/Concrete/CategoryManager.cs" Line="42" Column="61" IsPinned="True" />
-      <File FileName="Business/Abstract/ICategoryService.cs" Line="1" Column="1" />
-      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="18" Column="66" />
-      <File FileName="WebApi/Program.cs" Line="20" Column="1" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="48" Column="1" />
+      <File FileName="Core/DataAccess/IEntityRepository.cs" Line="1" Column="1" />
+      <File FileName="WebApi/Controllers/ProductController.cs" Line="98" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NorthwindBackend" expanded="True">
             <Node name="Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
-              <Node name="DependencyResolvers" expanded="True">
-                <Node name="Autofac" expanded="True" />
-              </Node>
             </Node>
             <Node name="Core" expanded="True">
               <Node name="DataAccess" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="EfEntityRepositoryBase.cs" selected="True" />
-                </Node>
+                <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
-            <Node name="Entities" expanded="True" />
             <Node name="WebApi" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
 </Properties>

@@ -1,7 +1,9 @@
-﻿using System;
-using Autofac;
+﻿using Autofac;
+using Autofac.Extras.DynamicProxy;
 using Business.Abstract;
 using Business.Concrete;
+using Castle.DynamicProxy;
+using Core.Utilities.Interceptors.Autofac;
 using Core.Utilities.Security.JWT;
 using DataAccess.Abstract;
 using DataAccess.Concrete;
@@ -10,15 +12,14 @@ using Microsoft.Extensions.Configuration;
 
 namespace Business.DependencyResolvers.Autofac
 {
-	public class AutofacBusinessModel : Module
-	{
-
+    public class AutofacBusinessModel : Module
+    {
         protected override void Load(ContainerBuilder builder)
         {
             var config = new ConfigurationBuilder()
-                                        .AddJsonFile("appsettings.json")
-                                        .Build();
-            
+                .AddJsonFile("appsettings.json")
+                .Build();
+
             builder.RegisterInstance(config);
             builder.RegisterType<ProductManager>().As<IProductService>();
             builder.RegisterType<EfProductDal>().As<IProductDal>();
@@ -31,8 +32,13 @@ namespace Business.DependencyResolvers.Autofac
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtTokenHelper>().As<ITokenHelper>();
-            
+
+            var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
+                .EnableInterfaceInterceptors(new ProxyGenerationOptions()
+                {
+                    Selector = new AspectInterceptorSelector()
+                }).SingleInstance();
         }
     }
 }
-
